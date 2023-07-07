@@ -14,6 +14,21 @@ h1 {
     text-align: center;
 }
 
+h2, p, li {
+    text-align: center;
+    line-height: 25px;
+}
+
+.main-img {
+    height: auto;
+    width: 500px;
+    border-radius: 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+}
+
 .link-list {
     list-style: none;
     line-height: 25px;
@@ -28,4 +43,17 @@ h1 {
 .link a:hover {
     color: rgb(74, 2, 104);
     text-decoration: underline;
+}
+
+ul {
+    list-style: none;
+}
+
+ol {
+    margin: auto 50px;
+}
+
+ol li {
+    padding: 10px;
+    text-align: left;
 }
