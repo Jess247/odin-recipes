@@ -11,17 +11,24 @@ h1 {
     text-decoration: underline;
 }
 
+
 body {
-    background-color: rgb(254, 251, 248);
+    background-color: rgba(234, 242, 215, .2);
     font-family: Arial, Helvetica, sans-serif;
 }
 .container {
     background-color: rgba(234, 242, 215, .5);
-    width: 80vw;
-    padding: 15px;
     border-radius: 3px;
+}
+.container, .pages-container {
+    width: 80vw;
     margin: 25px auto;
+    padding: 15px;
     text-align: center;
+}
+
+.pages-container h2 {
+    margin: 12px 0;
 }
 
 .main-img { 
@@ -76,4 +83,15 @@ ul li:last-child {
 .recipe-info {
     width: 380px;
     display: inline-block;
+}
+
+.pages-container ol {
+    margin-left: 20px;
+}
+
+.pages-container ul li{
+    display: block;
+}
+.pages-container p {
+    padding: 8px;
 }
